@@ -60,5 +60,36 @@ nav ul li{
     width: 98%;
 }
 
+#seccion02 {
+    margin-bottom: 50px;
+}
 
+#seccion02 article{
+    width: 33%;
+    /* border: 1px solid blue; */
+    display: inline-block;
+    vertical-align: top;
+}
+
+#seccion02 article input[type="submit"]{
+    background: white;
+    color: blue;
+    border-radius: 5px;
+    padding: 10px 12px;
+    /* display: block;
+    margin: 0 auto; */
+    margin-left: 125px;
+}
+
+.unaSeccion {
+    font-size: 4.5em; /*16px x 4.5*/
+}
+
+.nito {
+    font-weight: bold;
+}
+
+.otraSeccion {
+    font-size: 2.5em; /*16px x 2.5*/
+}
 
