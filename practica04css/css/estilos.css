@@ -1,0 +1,47 @@
+body{
+    max-width: 1024px;
+    font-size: 16px; /* 1em*/
+    margin: 0px auto;
+}
+
+header article{
+    display: inline-block;
+}
+
+.article-izq{
+    width: 58%;
+}
+
+.article-der{
+    width: 38%;
+}
+
+.article-izq img {
+    padding: 20px;
+    width: 200px;
+}
+
+nav ul {
+    margin-left: -20px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.article-der .art1{
+    text-align: right;
+}
+
+.article-der .art2{
+    text-align: center;
+}
+
+.article-der .art3{
+    text-align: left;
+}
+
+
