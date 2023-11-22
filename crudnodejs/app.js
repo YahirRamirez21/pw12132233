@@ -1,11 +1,11 @@
 var express = require('express');
-var express = require('mysql');
+var mysql = require('mysql');
 var app = express();
 app.use(express.json);
 
 
 // Configurar la conexion
-var conexion = mysql.create({
+var conexion = mysql.createConnection({
     host: "localhost",
     user: "root",
     password: "",

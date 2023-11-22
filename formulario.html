@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        form {
+            background-color: aqua;
+            width: 400px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+        }
+
+        #name, #password, #correo {
+            width: 90%;
+            padding: 10px;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+        }
+
+        #btn1, #btn2 {
+            padding: 10px;
+            width: 80%;
+            margin-top: 10px;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+            text-transform: uppercase; 
+        } */
+
+    </style>
+</head>
+<body>
+    <form action="paginaprocesa.html" method="get">
+        <h1>Login</h1>
+        <input type="text" name="nombre" id="name" placeholder="Nombre">
+        <br>
+        <input type="password" name="clave" id="password" placeholder="Clave">
+        <br>
+        <input type="email" name="correo" id="correo" placeholder="Correo">
+        <br>
+        <input type="number" name="numero" value="10">
+        <br>
+        <p>Botones de Radio</p>
+        <input type="radio" name="botonradio" value="HTML">HTML
+        <input type="radio" name="botonradio" value="CSS">CSS
+        <input type="radio" name="botonradio" value="JS">JS
+        <p>Botones de Chequeo</p>
+        <input type="radio" name="botonradio" value="HTML">HTML
+        <input type="radio" name="botonradio" value="CSS">CSS
+        <input type="radio" name="botonradio" value="JS">JS
+        <br>
+        Subir archivos <br>
+        <input type="file" name="archivo">
+        <br>
+        Buscar algo <br>
+        <input type="search" name="buscar">
+        <br>
+        Fecha corta <br>
+        <input type="date" name="fechacorta" value="2023-11-06">
+        <br>
+        Fecha Larga <br>
+        <input type="datetime-local" name="fechalarga" value="2023-11-06T12:46:47:00.00">
+        <br>
+        <input type="week" name="semana">
+        <br>
+        <input type="month" name="mes"> <br>
+        <textarea name="texto" cols="30" rows="10"></textarea>
+        <br>
+        <select name="opcion">
+            <option disabled selected>Seleciona una opcion</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JS">JavaScript</option>
+        </select>
+        <p></p>
+        <input type="submit" id="btn1" value="Enviar datos">
+        <input type="reset" id="btn2" value="Borrar Datos">
+    </form>
+</body>
+</html>
